@@ -1,0 +1,70 @@
+. {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+#cont {
+    width: 700px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: white;
+    min-height: 100vh;
+}
+
+h1,
+h2 {
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+    margin: 16px 0;
+}
+
+p {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+#sombra-texto-1 {
+    text-shadow: 3px 3px 6px rgb(219, 67, 67);
+}
+
+#sombra-texto-2 {
+    text-shadow: 3px 3px 6px rgb(219, 184, 67), -6px -6px 6px rgb(77, 67, 219);
+}
+
+.caja {
+    width: 500px;
+    padding: 16px;
+    background-color: lightskyblue;
+    margin:32px 0;
+}
+
+#sombra-caja1 {
+    box-shadow: 6px 6px 4px rgba(219, 67, 67); 9px 9px 4px rgb(67, 219, 87); greenyellow; 9px 9px 4px rgb(67, 219, 67);
+}
+
+#sombra-caja2 {
+    box-shadow: 6px 6px 4px rgb(219, 67, 87), 9px 9px 4px rgb(219, 141, 67); greenyellow;
+}
+
+#sombra-caja3 {
+    box-shadow: 6px 6px 4px rgba(219, 67, 67), -12px -12px 4px rgb(67, 219, 87), 12px 12px 4px rgba(67, 219, 67);
+}
+
+#sombra-caja4 {
+    box-shadow: 6px 6px 4px rgba(219, 67, 67), -12px -12px 4px rgb(53, 52, 58), 12px 12px 4px rgba(67, 219, 67), -18px -18px 4px rgba(219, 219, 67);
+    background-color: white;
+}
+
+#opacidad1 {
+    opacity: 0.5;
+}
+#opacidad2 {
+    resize: vertical; 0.8;
+    overflow: auto;
+}

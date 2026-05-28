@@ -1,0 +1,41 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: franklin gothic medium, arial narrow, sans-serif;
+    padding: 32px;
+}
+
+h1{
+    padding: 16px 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+table th{
+    background-color: red;
+    color: white;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+table tbody tr:hover{
+    background-color: rgb(114, 107, 107);
+    cursor: pointer;
+}
+
+table tbody tr{
+    transition: 0.3s;
+}
+
