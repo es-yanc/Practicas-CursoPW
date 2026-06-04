@@ -1,0 +1,18 @@
+#origen{
+    color: green !important;
+}
+#cascada{
+    color: blue;
+}
+#cascada{
+    color: orange;
+}
+div{
+    color: brown;
+}
+#esp{
+    color: violet;
+}
+.esp#esp{
+    color: darkmagenta;
+}
